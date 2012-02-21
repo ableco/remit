@@ -106,6 +106,7 @@ module Remit
   end
 
   class TokenUsageLimit < BaseResponse
+    parameter :amount
     parameter :count
     parameter :limit
     parameter :last_reset_amount
